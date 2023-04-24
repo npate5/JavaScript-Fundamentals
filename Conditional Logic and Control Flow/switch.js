@@ -39,3 +39,4 @@ switch (employee.department) {
     default:
         console.log('Meet in Building 3');
 }
+
