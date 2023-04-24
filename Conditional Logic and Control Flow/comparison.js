@@ -28,4 +28,12 @@ let obj3 = obj2;
 let val8 = (obj2 === obj3);
 console.log(`val8: ${val8}`);
 
+// Strict equality vs equality
+let val9 = ('42' == 42);
+let val10 = ('42' === 42);
+console.log(`val9: ${val9} val10: ${val10}`);
+
+let val11 = (undefined == null);
+let val12 = (undefined === null);
+console.log(`val11: ${val11} val12: ${val12}`);
 
